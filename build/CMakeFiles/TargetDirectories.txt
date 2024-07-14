@@ -1,0 +1,5 @@
+/home/toyi/code/fo/build/CMakeFiles/edit_cache.dir
+/home/toyi/code/fo/build/CMakeFiles/rebuild_cache.dir
+/home/toyi/code/fo/build/src/CMakeFiles/fileop.dir
+/home/toyi/code/fo/build/src/CMakeFiles/edit_cache.dir
+/home/toyi/code/fo/build/src/CMakeFiles/rebuild_cache.dir

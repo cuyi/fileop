@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/fileop.dir/main.c.o CMakeFiles/fileop.dir/common.c.o CMakeFiles/fileop.dir/read/file_read.c.o CMakeFiles/fileop.dir/write/file_write.c.o -o /home/toyi/code/fo/bin/fileop
