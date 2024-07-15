@@ -1,5 +1,5 @@
 ## introduction
-program execise. read file from absolute path, and write to another path.
+program exercise. read file from absolute path, and write to another path.
 
 ## how to use
 1. cd build
