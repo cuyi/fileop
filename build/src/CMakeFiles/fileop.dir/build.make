@@ -53,10 +53,10 @@ RM = /snap/cmake/1403/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/toyi/code/fo
+CMAKE_SOURCE_DIR = /home/toyi/code/fileop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/toyi/code/fo/build
+CMAKE_BINARY_DIR = /home/toyi/code/fileop/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/fileop.dir/depend.make
@@ -70,60 +70,60 @@ include src/CMakeFiles/fileop.dir/progress.make
 include src/CMakeFiles/fileop.dir/flags.make
 
 src/CMakeFiles/fileop.dir/main.c.o: src/CMakeFiles/fileop.dir/flags.make
-src/CMakeFiles/fileop.dir/main.c.o: /home/toyi/code/fo/src/main.c
+src/CMakeFiles/fileop.dir/main.c.o: /home/toyi/code/fileop/src/main.c
 src/CMakeFiles/fileop.dir/main.c.o: src/CMakeFiles/fileop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/fileop.dir/main.c.o"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/main.c.o -MF CMakeFiles/fileop.dir/main.c.o.d -o CMakeFiles/fileop.dir/main.c.o -c /home/toyi/code/fo/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/fileop.dir/main.c.o"
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/main.c.o -MF CMakeFiles/fileop.dir/main.c.o.d -o CMakeFiles/fileop.dir/main.c.o -c /home/toyi/code/fileop/src/main.c
 
 src/CMakeFiles/fileop.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fileop.dir/main.c.i"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fo/src/main.c > CMakeFiles/fileop.dir/main.c.i
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fileop/src/main.c > CMakeFiles/fileop.dir/main.c.i
 
 src/CMakeFiles/fileop.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fileop.dir/main.c.s"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fo/src/main.c -o CMakeFiles/fileop.dir/main.c.s
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fileop/src/main.c -o CMakeFiles/fileop.dir/main.c.s
 
 src/CMakeFiles/fileop.dir/common.c.o: src/CMakeFiles/fileop.dir/flags.make
-src/CMakeFiles/fileop.dir/common.c.o: /home/toyi/code/fo/src/common.c
+src/CMakeFiles/fileop.dir/common.c.o: /home/toyi/code/fileop/src/common.c
 src/CMakeFiles/fileop.dir/common.c.o: src/CMakeFiles/fileop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/fileop.dir/common.c.o"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/common.c.o -MF CMakeFiles/fileop.dir/common.c.o.d -o CMakeFiles/fileop.dir/common.c.o -c /home/toyi/code/fo/src/common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/fileop.dir/common.c.o"
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/common.c.o -MF CMakeFiles/fileop.dir/common.c.o.d -o CMakeFiles/fileop.dir/common.c.o -c /home/toyi/code/fileop/src/common.c
 
 src/CMakeFiles/fileop.dir/common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fileop.dir/common.c.i"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fo/src/common.c > CMakeFiles/fileop.dir/common.c.i
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fileop/src/common.c > CMakeFiles/fileop.dir/common.c.i
 
 src/CMakeFiles/fileop.dir/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fileop.dir/common.c.s"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fo/src/common.c -o CMakeFiles/fileop.dir/common.c.s
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fileop/src/common.c -o CMakeFiles/fileop.dir/common.c.s
 
 src/CMakeFiles/fileop.dir/read/file_read.c.o: src/CMakeFiles/fileop.dir/flags.make
-src/CMakeFiles/fileop.dir/read/file_read.c.o: /home/toyi/code/fo/src/read/file_read.c
+src/CMakeFiles/fileop.dir/read/file_read.c.o: /home/toyi/code/fileop/src/read/file_read.c
 src/CMakeFiles/fileop.dir/read/file_read.c.o: src/CMakeFiles/fileop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/fileop.dir/read/file_read.c.o"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/read/file_read.c.o -MF CMakeFiles/fileop.dir/read/file_read.c.o.d -o CMakeFiles/fileop.dir/read/file_read.c.o -c /home/toyi/code/fo/src/read/file_read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/fileop.dir/read/file_read.c.o"
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/read/file_read.c.o -MF CMakeFiles/fileop.dir/read/file_read.c.o.d -o CMakeFiles/fileop.dir/read/file_read.c.o -c /home/toyi/code/fileop/src/read/file_read.c
 
 src/CMakeFiles/fileop.dir/read/file_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fileop.dir/read/file_read.c.i"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fo/src/read/file_read.c > CMakeFiles/fileop.dir/read/file_read.c.i
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fileop/src/read/file_read.c > CMakeFiles/fileop.dir/read/file_read.c.i
 
 src/CMakeFiles/fileop.dir/read/file_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fileop.dir/read/file_read.c.s"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fo/src/read/file_read.c -o CMakeFiles/fileop.dir/read/file_read.c.s
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fileop/src/read/file_read.c -o CMakeFiles/fileop.dir/read/file_read.c.s
 
 src/CMakeFiles/fileop.dir/write/file_write.c.o: src/CMakeFiles/fileop.dir/flags.make
-src/CMakeFiles/fileop.dir/write/file_write.c.o: /home/toyi/code/fo/src/write/file_write.c
+src/CMakeFiles/fileop.dir/write/file_write.c.o: /home/toyi/code/fileop/src/write/file_write.c
 src/CMakeFiles/fileop.dir/write/file_write.c.o: src/CMakeFiles/fileop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/fileop.dir/write/file_write.c.o"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/write/file_write.c.o -MF CMakeFiles/fileop.dir/write/file_write.c.o.d -o CMakeFiles/fileop.dir/write/file_write.c.o -c /home/toyi/code/fo/src/write/file_write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/fileop.dir/write/file_write.c.o"
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fileop.dir/write/file_write.c.o -MF CMakeFiles/fileop.dir/write/file_write.c.o.d -o CMakeFiles/fileop.dir/write/file_write.c.o -c /home/toyi/code/fileop/src/write/file_write.c
 
 src/CMakeFiles/fileop.dir/write/file_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fileop.dir/write/file_write.c.i"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fo/src/write/file_write.c > CMakeFiles/fileop.dir/write/file_write.c.i
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/toyi/code/fileop/src/write/file_write.c > CMakeFiles/fileop.dir/write/file_write.c.i
 
 src/CMakeFiles/fileop.dir/write/file_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fileop.dir/write/file_write.c.s"
-	cd /home/toyi/code/fo/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fo/src/write/file_write.c -o CMakeFiles/fileop.dir/write/file_write.c.s
+	cd /home/toyi/code/fileop/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/toyi/code/fileop/src/write/file_write.c -o CMakeFiles/fileop.dir/write/file_write.c.s
 
 # Object files for target fileop
 fileop_OBJECTS = \
@@ -135,24 +135,24 @@ fileop_OBJECTS = \
 # External object files for target fileop
 fileop_EXTERNAL_OBJECTS =
 
-/home/toyi/code/fo/bin/fileop: src/CMakeFiles/fileop.dir/main.c.o
-/home/toyi/code/fo/bin/fileop: src/CMakeFiles/fileop.dir/common.c.o
-/home/toyi/code/fo/bin/fileop: src/CMakeFiles/fileop.dir/read/file_read.c.o
-/home/toyi/code/fo/bin/fileop: src/CMakeFiles/fileop.dir/write/file_write.c.o
-/home/toyi/code/fo/bin/fileop: src/CMakeFiles/fileop.dir/build.make
-/home/toyi/code/fo/bin/fileop: src/CMakeFiles/fileop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/toyi/code/fo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable /home/toyi/code/fo/bin/fileop"
-	cd /home/toyi/code/fo/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fileop.dir/link.txt --verbose=$(VERBOSE)
+/home/toyi/code/fileop/bin/fileop: src/CMakeFiles/fileop.dir/main.c.o
+/home/toyi/code/fileop/bin/fileop: src/CMakeFiles/fileop.dir/common.c.o
+/home/toyi/code/fileop/bin/fileop: src/CMakeFiles/fileop.dir/read/file_read.c.o
+/home/toyi/code/fileop/bin/fileop: src/CMakeFiles/fileop.dir/write/file_write.c.o
+/home/toyi/code/fileop/bin/fileop: src/CMakeFiles/fileop.dir/build.make
+/home/toyi/code/fileop/bin/fileop: src/CMakeFiles/fileop.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable /home/toyi/code/fileop/bin/fileop"
+	cd /home/toyi/code/fileop/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fileop.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/fileop.dir/build: /home/toyi/code/fo/bin/fileop
+src/CMakeFiles/fileop.dir/build: /home/toyi/code/fileop/bin/fileop
 .PHONY : src/CMakeFiles/fileop.dir/build
 
 src/CMakeFiles/fileop.dir/clean:
-	cd /home/toyi/code/fo/build/src && $(CMAKE_COMMAND) -P CMakeFiles/fileop.dir/cmake_clean.cmake
+	cd /home/toyi/code/fileop/build/src && $(CMAKE_COMMAND) -P CMakeFiles/fileop.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/fileop.dir/clean
 
 src/CMakeFiles/fileop.dir/depend:
-	cd /home/toyi/code/fo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/toyi/code/fo /home/toyi/code/fo/src /home/toyi/code/fo/build /home/toyi/code/fo/build/src /home/toyi/code/fo/build/src/CMakeFiles/fileop.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/toyi/code/fileop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/toyi/code/fileop /home/toyi/code/fileop/src /home/toyi/code/fileop/build /home/toyi/code/fileop/build/src /home/toyi/code/fileop/build/src/CMakeFiles/fileop.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/fileop.dir/depend
 

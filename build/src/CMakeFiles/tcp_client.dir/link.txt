@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/tcp_client.dir/tcp_client/client.c.o -o /home/toyi/code/fileop/bin/tcp_client

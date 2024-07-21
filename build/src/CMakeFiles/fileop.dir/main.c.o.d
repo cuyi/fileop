@@ -1,4 +1,4 @@
-src/CMakeFiles/fileop.dir/main.c.o: /home/toyi/code/fo/src/main.c \
+src/CMakeFiles/fileop.dir/main.c.o: /home/toyi/code/fileop/src/main.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -48,7 +48,7 @@ src/CMakeFiles/fileop.dir/main.c.o: /home/toyi/code/fo/src/main.c \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/toyi/code/fo/src/common.h /usr/include/stdio.h \
+ /home/toyi/code/fileop/src/common.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -57,8 +57,8 @@ src/CMakeFiles/fileop.dir/main.c.o: /home/toyi/code/fo/src/main.c \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/toyi/code/fo/src/read/file_read.h \
+ /home/toyi/code/fileop/src/read/file_read.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/toyi/code/fo/src/write/file_write.h
+ /home/toyi/code/fileop/src/write/file_write.h

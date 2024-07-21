@@ -57,10 +57,10 @@ RM = /snap/cmake/1403/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/toyi/code/fo
+CMAKE_SOURCE_DIR = /home/toyi/code/fileop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/toyi/code/fo/build
+CMAKE_BINARY_DIR = /home/toyi/code/fileop/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/toyi/code/fo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fo/build/CMakeFiles /home/toyi/code/fo/build/src//CMakeFiles/progress.marks
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fo/build/CMakeFiles 0
+	cd /home/toyi/code/fileop/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles /home/toyi/code/fileop/build/src//CMakeFiles/progress.marks
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/toyi/code/fo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/toyi/code/fileop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/fileop.dir/rule:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/fileop.dir/rule
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/fileop.dir/rule
 .PHONY : src/CMakeFiles/fileop.dir/rule
 
 # Convenience name for target.
@@ -127,15 +127,43 @@ fileop: src/CMakeFiles/fileop.dir/rule
 
 # fast build rule for target.
 fileop/fast:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/build
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/build
 .PHONY : fileop/fast
+
+# Convenience name for target.
+src/CMakeFiles/tcp_server.dir/rule:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/tcp_server.dir/rule
+.PHONY : src/CMakeFiles/tcp_server.dir/rule
+
+# Convenience name for target.
+tcp_server: src/CMakeFiles/tcp_server.dir/rule
+.PHONY : tcp_server
+
+# fast build rule for target.
+tcp_server/fast:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/build
+.PHONY : tcp_server/fast
+
+# Convenience name for target.
+src/CMakeFiles/tcp_client.dir/rule:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/tcp_client.dir/rule
+.PHONY : src/CMakeFiles/tcp_client.dir/rule
+
+# Convenience name for target.
+tcp_client: src/CMakeFiles/tcp_client.dir/rule
+.PHONY : tcp_client
+
+# fast build rule for target.
+tcp_client/fast:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/build
+.PHONY : tcp_client/fast
 
 common.o: common.c.o
 .PHONY : common.o
 
 # target to build an object file
 common.c.o:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/common.c.o
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/common.c.o
 .PHONY : common.c.o
 
 common.i: common.c.i
@@ -143,7 +171,7 @@ common.i: common.c.i
 
 # target to preprocess a source file
 common.c.i:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/common.c.i
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/common.c.i
 .PHONY : common.c.i
 
 common.s: common.c.s
@@ -151,7 +179,7 @@ common.s: common.c.s
 
 # target to generate assembly for a file
 common.c.s:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/common.c.s
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/common.c.s
 .PHONY : common.c.s
 
 main.o: main.c.o
@@ -159,7 +187,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/main.c.o
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -167,7 +195,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/main.c.i
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -175,7 +203,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/main.c.s
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/main.c.s
 .PHONY : main.c.s
 
 read/file_read.o: read/file_read.c.o
@@ -183,7 +211,7 @@ read/file_read.o: read/file_read.c.o
 
 # target to build an object file
 read/file_read.c.o:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/read/file_read.c.o
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/read/file_read.c.o
 .PHONY : read/file_read.c.o
 
 read/file_read.i: read/file_read.c.i
@@ -191,7 +219,7 @@ read/file_read.i: read/file_read.c.i
 
 # target to preprocess a source file
 read/file_read.c.i:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/read/file_read.c.i
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/read/file_read.c.i
 .PHONY : read/file_read.c.i
 
 read/file_read.s: read/file_read.c.s
@@ -199,15 +227,63 @@ read/file_read.s: read/file_read.c.s
 
 # target to generate assembly for a file
 read/file_read.c.s:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/read/file_read.c.s
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/read/file_read.c.s
 .PHONY : read/file_read.c.s
+
+tcp_client/client.o: tcp_client/client.c.o
+.PHONY : tcp_client/client.o
+
+# target to build an object file
+tcp_client/client.c.o:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/tcp_client/client.c.o
+.PHONY : tcp_client/client.c.o
+
+tcp_client/client.i: tcp_client/client.c.i
+.PHONY : tcp_client/client.i
+
+# target to preprocess a source file
+tcp_client/client.c.i:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/tcp_client/client.c.i
+.PHONY : tcp_client/client.c.i
+
+tcp_client/client.s: tcp_client/client.c.s
+.PHONY : tcp_client/client.s
+
+# target to generate assembly for a file
+tcp_client/client.c.s:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/tcp_client/client.c.s
+.PHONY : tcp_client/client.c.s
+
+tcp_server/server.o: tcp_server/server.c.o
+.PHONY : tcp_server/server.o
+
+# target to build an object file
+tcp_server/server.c.o:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/tcp_server/server.c.o
+.PHONY : tcp_server/server.c.o
+
+tcp_server/server.i: tcp_server/server.c.i
+.PHONY : tcp_server/server.i
+
+# target to preprocess a source file
+tcp_server/server.c.i:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/tcp_server/server.c.i
+.PHONY : tcp_server/server.c.i
+
+tcp_server/server.s: tcp_server/server.c.s
+.PHONY : tcp_server/server.s
+
+# target to generate assembly for a file
+tcp_server/server.c.s:
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/tcp_server/server.c.s
+.PHONY : tcp_server/server.c.s
 
 write/file_write.o: write/file_write.c.o
 .PHONY : write/file_write.o
 
 # target to build an object file
 write/file_write.c.o:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/write/file_write.c.o
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/write/file_write.c.o
 .PHONY : write/file_write.c.o
 
 write/file_write.i: write/file_write.c.i
@@ -215,7 +291,7 @@ write/file_write.i: write/file_write.c.i
 
 # target to preprocess a source file
 write/file_write.c.i:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/write/file_write.c.i
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/write/file_write.c.i
 .PHONY : write/file_write.c.i
 
 write/file_write.s: write/file_write.c.s
@@ -223,7 +299,7 @@ write/file_write.s: write/file_write.c.s
 
 # target to generate assembly for a file
 write/file_write.c.s:
-	cd /home/toyi/code/fo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/write/file_write.c.s
+	cd /home/toyi/code/fileop/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/write/file_write.c.s
 .PHONY : write/file_write.c.s
 
 # Help Target
@@ -235,6 +311,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fileop"
+	@echo "... tcp_client"
+	@echo "... tcp_server"
 	@echo "... common.o"
 	@echo "... common.i"
 	@echo "... common.s"
@@ -244,6 +322,12 @@ help:
 	@echo "... read/file_read.o"
 	@echo "... read/file_read.i"
 	@echo "... read/file_read.s"
+	@echo "... tcp_client/client.o"
+	@echo "... tcp_client/client.i"
+	@echo "... tcp_client/client.s"
+	@echo "... tcp_server/server.o"
+	@echo "... tcp_server/server.i"
+	@echo "... tcp_server/server.s"
 	@echo "... write/file_write.o"
 	@echo "... write/file_write.i"
 	@echo "... write/file_write.s"
@@ -258,6 +342,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/toyi/code/fo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/toyi/code/fileop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

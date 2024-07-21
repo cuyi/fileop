@@ -1,4 +1,4 @@
-# Install script for directory: /home/toyi/code/fo
+# Install script for directory: /home/toyi/code/fileop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/toyi/code/fo/build/src/cmake_install.cmake")
+  include("/home/toyi/code/fileop/build/src/cmake_install.cmake")
 
 endif()
 
@@ -63,6 +63,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/toyi/code/fo/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/toyi/code/fileop/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

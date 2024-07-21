@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/toyi/code/fo/CMakeLists.txt"
+  "/home/toyi/code/fileop/CMakeLists.txt"
   "CMakeFiles/3.30.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.0/CMakeSystem.cmake"
-  "/home/toyi/code/fo/src/CMakeLists.txt"
+  "/home/toyi/code/fileop/src/CMakeLists.txt"
   "/snap/cmake/1403/share/cmake-3.30/Modules/CMakeCInformation.cmake"
   "/snap/cmake/1403/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
   "/snap/cmake/1403/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
@@ -47,4 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/fileop.dir/DependInfo.cmake"
+  "src/CMakeFiles/tcp_server.dir/DependInfo.cmake"
+  "src/CMakeFiles/tcp_client.dir/DependInfo.cmake"
   )

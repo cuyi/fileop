@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/tcp_server.dir/tcp_server/server.c.o -o /home/toyi/code/fileop/bin/tcp_server

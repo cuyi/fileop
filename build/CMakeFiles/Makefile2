@@ -54,10 +54,10 @@ RM = /snap/cmake/1403/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/toyi/code/fo
+CMAKE_SOURCE_DIR = /home/toyi/code/fileop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/toyi/code/fo/build
+CMAKE_BINARY_DIR = /home/toyi/code/fileop/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -79,6 +79,8 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/fileop.dir/all
+src/all: src/CMakeFiles/tcp_server.dir/all
+src/all: src/CMakeFiles/tcp_client.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -87,6 +89,8 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/fileop.dir/clean
+src/clean: src/CMakeFiles/tcp_server.dir/clean
+src/clean: src/CMakeFiles/tcp_client.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -96,14 +100,14 @@ src/clean: src/CMakeFiles/fileop.dir/clean
 src/CMakeFiles/fileop.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/toyi/code/fo/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target fileop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target fileop"
 .PHONY : src/CMakeFiles/fileop.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/fileop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fo/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/fileop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/fileop.dir/rule
 
 # Convenience name for target.
@@ -114,6 +118,58 @@ fileop: src/CMakeFiles/fileop.dir/rule
 src/CMakeFiles/fileop.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/clean
 .PHONY : src/CMakeFiles/fileop.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/tcp_server.dir
+
+# All Build rule for target.
+src/CMakeFiles/tcp_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=8,9 "Built target tcp_server"
+.PHONY : src/CMakeFiles/tcp_server.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/tcp_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/tcp_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/tcp_server.dir/rule
+
+# Convenience name for target.
+tcp_server: src/CMakeFiles/tcp_server.dir/rule
+.PHONY : tcp_server
+
+# clean rule for target.
+src/CMakeFiles/tcp_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/clean
+.PHONY : src/CMakeFiles/tcp_server.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/tcp_client.dir
+
+# All Build rule for target.
+src/CMakeFiles/tcp_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/toyi/code/fileop/build/CMakeFiles --progress-num=6,7 "Built target tcp_client"
+.PHONY : src/CMakeFiles/tcp_client.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/tcp_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/tcp_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/tcp_client.dir/rule
+
+# Convenience name for target.
+tcp_client: src/CMakeFiles/tcp_client.dir/rule
+.PHONY : tcp_client
+
+# clean rule for target.
+src/CMakeFiles/tcp_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/clean
+.PHONY : src/CMakeFiles/tcp_client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

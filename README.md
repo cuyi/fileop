@@ -6,4 +6,3 @@ program exercise. read file from absolute path, and write to another path.
 2. cmake ../ && make
 3. cd ../bin/
 4. sudo fileop /home/abc.txt /home/def.txt
-

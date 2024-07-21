@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/toyi/code/fo/bin/fileop"
-  "/home/toyi/code/fo/bin/fileop.pdb"
+  "/home/toyi/code/fileop/bin/fileop"
+  "/home/toyi/code/fileop/bin/fileop.pdb"
   "CMakeFiles/fileop.dir/common.c.o"
   "CMakeFiles/fileop.dir/common.c.o.d"
   "CMakeFiles/fileop.dir/main.c.o"

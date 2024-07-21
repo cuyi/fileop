@@ -57,10 +57,10 @@ RM = /snap/cmake/1403/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/toyi/code/fo
+CMAKE_SOURCE_DIR = /home/toyi/code/fileop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/toyi/code/fo/build
+CMAKE_BINARY_DIR = /home/toyi/code/fileop/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fo/build/CMakeFiles /home/toyi/code/fo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles /home/toyi/code/fileop/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/toyi/code/fileop/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,32 @@ fileop/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fileop.dir/build.make src/CMakeFiles/fileop.dir/build
 .PHONY : fileop/fast
 
+#=============================================================================
+# Target rules for targets named tcp_server
+
+# Build rule for target.
+tcp_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_server
+.PHONY : tcp_server
+
+# fast build rule for target.
+tcp_server/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_server.dir/build.make src/CMakeFiles/tcp_server.dir/build
+.PHONY : tcp_server/fast
+
+#=============================================================================
+# Target rules for targets named tcp_client
+
+# Build rule for target.
+tcp_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_client
+.PHONY : tcp_client
+
+# fast build rule for target.
+tcp_client/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/tcp_client.dir/build.make src/CMakeFiles/tcp_client.dir/build
+.PHONY : tcp_client/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +164,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fileop"
+	@echo "... tcp_client"
+	@echo "... tcp_server"
 .PHONY : help
 
 

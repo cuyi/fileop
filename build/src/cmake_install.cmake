@@ -1,4 +1,4 @@
-# Install script for directory: /home/toyi/code/fo/src
+# Install script for directory: /home/toyi/code/fileop/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

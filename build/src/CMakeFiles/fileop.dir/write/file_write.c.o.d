@@ -1,5 +1,5 @@
 src/CMakeFiles/fileop.dir/write/file_write.c.o: \
- /home/toyi/code/fo/src/write/file_write.c /usr/include/stdc-predef.h \
+ /home/toyi/code/fileop/src/write/file_write.c /usr/include/stdc-predef.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -53,4 +53,4 @@ src/CMakeFiles/fileop.dir/write/file_write.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/toyi/code/fo/src/common.h
+ /home/toyi/code/fileop/src/common.h
